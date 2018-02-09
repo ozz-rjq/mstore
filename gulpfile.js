@@ -19,9 +19,9 @@ gulp.task("clean", function() {
 });
 
 gulp.task("style", function() {
-	gulp.src("app/less/style.less")
+	gulp.src("app/sass/style.scss")
 		.pipe(plumber())
-		.pipe(less())
+		.pipe(sass())
 		.pipe(
 			autoprefixer(
 				["last 15 versions", "> 1%", "ie 8", "ie 7"], 
@@ -89,7 +89,7 @@ gulp.task("build", function(done) {
 });
 
 gulp.task("watch", ['serve', 'style'], function() {
-	gulp.watch("app/less/**/*.less", ['style']);
+	gulp.watch("app/sass/**/*.scss", ['style']);
 	gulp.watch('app/*.html', server.reload);
 	gulp.watch('app/js/**/*.js', server.reload);
 });
