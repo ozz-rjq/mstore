@@ -87,10 +87,13 @@
   font-weight: 900;
 }
 
-
 body{
   background-color: rgba(79, 106, 120, 0.33);
   font-family: $opensans;
   font-weight: 300;
   font-size: 14px;
+}
+
+.visually-hidden{
+	@include visually-hidden;
 }

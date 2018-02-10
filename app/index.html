@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
 
+<body>
 	<header class="page-header">
 		<div class="page-header__row  page-header__row--top">
 			<div class="page-header__container">
@@ -15,45 +16,49 @@
 					<span class="page-header__field">min101092@gmail.com</span>
 				</div>
 				<div class="page-header__info  page-header__info--right">
-					<span class="page-header__field">Language: <b>eng</b></span>
-					<span class="page-header__field">Currency: <b>usd</b></span>
+					<span class="page-header__field  page-header__field--upper">Language: <b>eng</b></span>
+					<span class="page-header__field  page-header__field--upper">Currency: <b>usd</b></span>
 				</div>
 			</div>
 		</div>
 
 		<div class="page-header__row  page-header__row--bottom">
-			<div class="page-header__logo">
-				<a><img src="#" alt="Mstore"></a>
-			</div>
-
-			<nav class="page-header__nav main-nav">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Man</a></li>
-					<li><a href="#">Women</a></li>
-					<li><a href="#">Accessories</a></li>
-					<li><a href="#">Lookbook</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-
-			<div class="page-header__user-block  user-block">
-				<form action="#">
-					<input class="user-block__search" type="text" name="search" id="search">
-					<label for="search"></label>
-				</form>
-
-				<div class="user-block__login  login">
-					<span class="login__icon"></span>
+			<div class="page-header__container">
+				<div class="page-header__logo">
+					<a><img src="./img/mstore-logo.png" alt="Mstore"></a>
 				</div>
 
-				<div class="user-block__wishlist  wishlist">
-					<span class="wishlist__icon"></span>
-				</div>
+				<nav class="page-header__nav main-nav">
+					<ul class="main-nav__list">
+						<li class="main-nav__item"><a class="main-nav__link" href="#">Home</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="#">Man</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="#">Women</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="#">Accessories</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="#">Lookbook</a></li>
+						<li class="main-nav__item"><a class="main-nav__link" href="#">Contact</a></li>
+					</ul>
+				</nav>
 
-				<div class="user-block__cart  cart">
-					<b class="cart__count">0</b>
-					<b class="cart__price">$0.00</b>
+				<div class="page-header__user-block  user-block">
+					<form action="#"  class="user-block__form">
+						<input class="user-block__search" type="text" name="search" placeholder="Enter your query..." id="search">
+						<label class="user-block__search-label" for="search"><button class="search-js" type="button"><span class="visually-hidden">Search</span></button></label>
+					</form>
+
+					<div class="user-block__login  login">
+						<a class="login__link" href="#"><span class="visually-hidden">Log In</span></a>
+					</div>
+
+					<div class="user-block__wishlist  wishlist">
+						<a class="wishlist__link" href="#"><span class="visually-hidden">Wishlist</span></a>
+					</div>
+
+					<div class="user-block__cart  cart">
+						<a class="cart__link" href="#">
+							<b class="cart__count">0</b>
+						</a>
+						<b class="cart__price">$0.00</b>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -67,9 +72,11 @@
 						<b class="promo__small-header  small-header">WE MAKE IT EASY TO EXPRIENCE CREATIVITY</b>
 						<h1 class="promo__big-header  big-header">Stylish new design.</h1>
 					</header>
+
 					<p class="promo__desc">
 						Order online and have your products delivered to your closest store for free...
 					</p>
+
 					<a href="#" class="promo__shopping  mstore-link">Shopping now</a>
 				</section>
 			</div>
@@ -107,8 +114,7 @@
 				</header>
 				<span class="arrival__price  arrival__price--red">$99.00</span>
 				<p class="arrival__desc">
-					Refresh your wardrobe with a piece from our gorgeous ready-to-wear collection, featuring beautifully crafted coats, dresses, jackets, sweaters, skirts, tops and trousers.
-					Whether you’re searching for a special occasion...
+					Refresh your wardrobe with a piece from our gorgeous ready-to-wear collection, featuring beautifully crafted coats, dresses, jackets, sweaters, skirts, tops and trousers. Whether you’re searching for a special occasion...
 				</p>
 				<a href="#" class="arrival__shopping  mstore-link">Shopping now</a>
 			</section>
@@ -120,8 +126,7 @@
 				</header>
 				<span class="arrival__price  arrival__price--blue"></span>
 				<p class="arrival__desc">
-					Refresh your wardrobe with a piece from our gorgeous ready-to-wear collection, featuring beautifully crafted coats, dresses, jackets, sweaters, skirts, tops and trousers.
-					Whether you’re searching for a special occasion...
+					Refresh your wardrobe with a piece from our gorgeous ready-to-wear collection, featuring beautifully crafted coats, dresses, jackets, sweaters, skirts, tops and trousers. Whether you’re searching for a special occasion...
 				</p>
 				<a href="#" class="arrival__shopping  mstore-link">Shopping now</a>
 			</section>
@@ -600,5 +605,7 @@
 
 		<div class="page-footer__line"></div>
 	</footer>
+
+	<script src="./js/script.js"></script>
 </body>
 </html>

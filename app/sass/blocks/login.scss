@@ -1,0 +1,17 @@
+.login{
+
+}
+
+.login__link{
+  display: inline-block;
+  vertical-align: top;
+
+  width: 16px;
+  height: 17px;
+  background-image: url("../img/sprite.png");
+  background-position: 0 -72px;
+
+  &:hover{
+    background-position: 0 -109px;
+  }
+}

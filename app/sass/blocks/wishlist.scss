@@ -1,0 +1,17 @@
+.wishlist{
+
+}
+
+.wishlist__link{
+  display: inline-block;
+  vertical-align: top;
+
+  width: 16px;
+  height: 15px;
+  background-image: url("../img/sprite.png");
+  background-position: 0 -145px;
+
+  &:hover{
+    background-position: 0 -180px;
+  }
+}
