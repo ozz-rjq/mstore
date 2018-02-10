@@ -1,0 +1,35 @@
+.mstore-link{
+  position: relative;
+
+  font-family: $roboto;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+
+  &::after{
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: -12px;
+
+    width: 0;
+    height: 0;
+
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+
+    border-left: 4px solid black;
+  }
+
+  &:hover{
+    color: rgb(26, 61, 62);
+
+    &::after{
+      border-left: 4px solid rgb(26, 61, 62);
+    }
+  }
+}
