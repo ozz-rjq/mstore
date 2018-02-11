@@ -801,3 +801,45 @@ body {
   line-height: 18px;
   letter-spacing: 0.075em;
   color: #898989; }
+
+.arrivals {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.arrival {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 570px; }
+
+.arrival__desc {
+  width: 210px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.075em;
+  color: #636363; }
+
+.arrival--boy .arrival__desc {
+  text-align: left; }
+
+.arrival--girl .arrival__desc {
+  text-align: right;
+  margin-left: auto; }
+
+.arrival--girl .arrival__note,
+.arrival--girl .arrival__title,
+.arrival--girl .arrival__price,
+.arrival--girl .arrival__shopping {
+  text-align: right;
+  margin-left: auto; }
