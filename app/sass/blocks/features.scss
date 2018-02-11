@@ -13,10 +13,30 @@
 .features__item{
   padding-left: 70px;
   width: 200px;
+
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+
+  &--shipping{
+    background-position: 19px -280px;
+  }
+
+  &--support{
+    background-position: 19px -330px;
+  }
+
+  &--return{
+    background-position: 19px -374px;
+  }
+
+  &--payment{
+    background-position: 19px -418px;
+  }
 }
 
 .features__title{
   margin: 0;
+  margin-bottom: -2px;
 
   font-family: $roboto;
   font-size: 14px;

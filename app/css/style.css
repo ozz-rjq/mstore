@@ -771,10 +771,21 @@ body {
 
 .features__item {
   padding-left: 70px;
-  width: 200px; }
+  width: 200px;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat; }
+  .features__item--shipping {
+    background-position: 19px -280px; }
+  .features__item--support {
+    background-position: 19px -330px; }
+  .features__item--return {
+    background-position: 19px -374px; }
+  .features__item--payment {
+    background-position: 19px -418px; }
 
 .features__title {
   margin: 0;
+  margin-bottom: -2px;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
