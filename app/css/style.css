@@ -821,25 +821,80 @@ body {
 .arrival {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 570px; }
+  width: 570px;
+  padding-top: 71px;
+  padding-right: 14px;
+  padding-left: 21px;
+  padding-bottom: 68px;
+  margin-bottom: 30px;
+  background-color: #eff2f7;
+  background-repeat: no-repeat; }
+  .arrival--boy {
+    background-image: url("../../img/arrival-boy.jpg"); }
+  .arrival--girl {
+    background-image: url("../../img/arrival-girl.jpg");
+    background-position: right; }
+
+.arrival__note {
+  display: block;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase; }
+  .arrival__note--red {
+    color: #ff0036; }
+  .arrival__note--blue {
+    color: #00b8b8; }
+
+.arrival__title {
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #252525; }
+
+.arrival__price {
+  display: block;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 58px;
+  font-weight: 700; }
+  .arrival__price--red {
+    color: #ff0036; }
+  .arrival__price--blue {
+    color: #00b8b8; }
 
 .arrival__desc {
   width: 210px;
+  margin-bottom: 32px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 12px;
+  line-height: 14px;
   letter-spacing: 0.075em;
   color: #636363; }
 
+.arrival__shopping {
+  float: right;
+  margin-right: 14px;
+  font-size: 12px; }
+
 .arrival--boy .arrival__desc {
-  text-align: left; }
+  text-align: right; }
 
-.arrival--girl .arrival__desc {
-  text-align: right;
-  margin-left: auto; }
-
-.arrival--girl .arrival__note,
-.arrival--girl .arrival__title,
-.arrival--girl .arrival__price,
 .arrival--girl .arrival__shopping {
+  float: left; }
+
+.arrival--boy .arrival__desc {
   text-align: right;
   margin-left: auto; }
+
+.arrival--boy .arrival__note,
+.arrival--boy .arrival__title,
+.arrival--boy .arrival__price,
+.arrival--boy .arrival__shopping {
+  text-align: right; }
