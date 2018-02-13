@@ -909,7 +909,8 @@ body {
   padding-left: 70px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 30px; }
 
 .new-item__note {
   font-family: "Roboto", "Arial", sans-serif;
