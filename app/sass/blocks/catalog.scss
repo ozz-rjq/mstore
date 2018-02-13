@@ -1,0 +1,36 @@
+.shop{
+  box-sizing: border-box;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.shop__header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop__title{
+  position: relative;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-family: $roboto;
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 500;
+  color: #252525;
+
+  &::after{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+
+    width: 50px;
+    height: 1px;
+    background-color: #252525;
+  }
+}
