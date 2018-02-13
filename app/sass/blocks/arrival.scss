@@ -70,7 +70,7 @@
 
 .arrival__desc{
   width: 210px;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 
   font-family: $opensans;
   font-size: 12px;
@@ -83,7 +83,8 @@
   float: right;
   margin-right: 14px;
 
-  font-size: 12px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
 }
 
 .arrival--boy .arrival__desc{
