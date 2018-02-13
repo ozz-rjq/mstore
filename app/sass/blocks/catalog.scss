@@ -16,6 +16,7 @@
 
   padding-top: 20px;
   padding-bottom: 20px;
+  margin: 0;
 
   font-family: $roboto;
   font-size: 24px;
@@ -32,5 +33,30 @@
     width: 50px;
     height: 1px;
     background-color: #252525;
+  }
+}
+
+.shop__link{
+  display: block;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  font-family: $roboto;
+  font-size: 10px;
+  line-height: 44px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #636363;
+
+  &:hover{
+    background-color: rgba(129, 163, 191, 0.68);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+    color: rgb(19, 1, 2);
   }
 }
