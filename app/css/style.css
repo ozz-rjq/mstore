@@ -992,7 +992,10 @@ body {
   letter-spacing: 0.05em;
   text-decoration: none;
   text-transform: uppercase;
-  color: #636363; }
+  color: #636363;
+  -webkit-transition: background-color 0.3s, color 0.25s;
+  -o-transition: background-color 0.3s, color 0.25s;
+  transition: background-color 0.3s, color 0.25s; }
   .shop__link:hover {
     background-color: rgba(129, 163, 191, 0.68);
     -webkit-border-top-left-radius: 6px;
