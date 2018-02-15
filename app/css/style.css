@@ -1046,7 +1046,17 @@ body {
   text-align: center;
   height: 40px;
   width: 100%;
-  background-color: #fff; }
+  background-color: #fff;
+  -webkit-animation: hoverIn 0.3s;
+          animation: hoverIn 0.3s; }
+
+@-webkit-keyframes hoverIn {
+  0% {
+    opacity: 0; } }
+
+@keyframes hoverIn {
+  0% {
+    opacity: 0; } }
 
 .product__to-cart {
   display: inline-block;

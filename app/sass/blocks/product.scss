@@ -30,6 +30,12 @@
   height: 40px;
   width: 100%;
   background-color: #fff;
+
+  animation: hoverIn 0.3s;
+}
+
+@keyframes hoverIn{
+  0%{opacity: 0;}
 }
 
 .product__to-cart{
