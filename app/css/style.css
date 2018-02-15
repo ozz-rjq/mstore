@@ -1025,12 +1025,9 @@ body {
   background-color: #f1f1f1; }
 
 .product__hover {
+  display: none;
   position: absolute;
   bottom: 35px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;

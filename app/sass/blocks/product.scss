@@ -13,10 +13,11 @@
 }
 
 .product__hover{
+  display: none;
+
   position: absolute;
   bottom: 35px;
 
-  display: flex;
   justify-content: center;
   align-items: center;
 
