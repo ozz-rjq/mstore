@@ -1024,9 +1024,16 @@ body {
   vertical-align: middle;
   background-color: #f1f1f1; }
 
+.product__thumbnail:hover .product__hover {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 .product__hover {
   display: none;
   position: absolute;
+  left: 0;
   bottom: 35px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1037,8 +1044,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 100%;
   height: 40px;
+  width: 100%;
   background-color: #fff; }
 
 .product__to-cart {
@@ -1075,10 +1082,6 @@ body {
   cursor: pointer; }
   .product__view:hover {
     background-position: 0 -929px; }
-
-.product__inner {
-  width: 100%;
-  height: 100%; }
 
 .product__title {
   margin: 0;
