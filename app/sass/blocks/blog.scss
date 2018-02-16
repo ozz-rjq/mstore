@@ -1,0 +1,35 @@
+.blog{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.blog__title{
+  position: relative;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+
+  font-family: $roboto;
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 500;
+  color: #252525;
+
+  &::after{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+
+    width: 50px;
+    height: 1px;
+    background-color: #252525;
+  }
+}
+
+.blog__container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
