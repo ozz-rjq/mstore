@@ -1040,6 +1040,8 @@ body {
   min-height: 350px;
   vertical-align: middle;
   background-color: #f1f1f1; }
+  .product__thumbnail img {
+    display: block; }
 
 .product__thumbnail:hover .product__hover {
   display: -webkit-box;
@@ -1324,4 +1326,61 @@ body {
           flex-wrap: wrap; }
 
 .post {
-  width: 370px; }
+  width: 370px;
+  padding-bottom: 26px;
+  margin-bottom: 30px; }
+
+.post__thumbnail img {
+  display: block; }
+
+.post__info {
+  padding-left: 8px; }
+
+.post__title {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #252525; }
+
+.post__additional a {
+  text-decoration: none;
+  color: #636363; }
+  .post__additional a:hover {
+    color: #610a00; }
+
+.post__date {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 18px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #636363;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0px -966px; }
+
+.post__comments {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 30px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: 8px -998px; }
+
+.post__desc {
+  margin-bottom: 26px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 0.075em;
+  color: #898989; }
