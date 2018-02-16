@@ -1275,5 +1275,13 @@ body {
 
 .special-offer__link {
   position: absolute;
-  top: 30px;
-  left: 10px; }
+  top: 80px;
+  left: 100px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #616161; }
+  .special-offer__link:hover {
+    text-decoration: none;
+    color: #252525; }

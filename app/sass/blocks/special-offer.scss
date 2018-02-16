@@ -4,6 +4,17 @@
 
 .special-offer__link{
   position: absolute;
-  top: 30px;
-  left: 10px;
+  top: 80px;
+  left: 100px;
+
+  font-family: $roboto;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #616161;
+
+  &:hover{
+    text-decoration: none;
+    color: #252525;
+  }
 }
