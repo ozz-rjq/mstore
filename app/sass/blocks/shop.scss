@@ -4,6 +4,21 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+
+  &--narrow{
+    width: 870px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+  }
+}
+
+.shop__container{
+  width: 1170px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .shop__header{

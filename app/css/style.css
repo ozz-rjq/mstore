@@ -948,6 +948,23 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; }
+  .shop--narrow {
+    width: 870px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0; }
+
+.shop__container {
+  width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .shop__header {
   display: -webkit-box;
@@ -1199,6 +1216,7 @@ body {
 .offer {
   width: 1170px;
   margin: 0 auto;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1251,3 +1269,11 @@ body {
 .offer__link {
   display: inline-block;
   text-align: center; }
+
+.special-offer {
+  position: relative; }
+
+.special-offer__link {
+  position: absolute;
+  top: 30px;
+  left: 10px; }
