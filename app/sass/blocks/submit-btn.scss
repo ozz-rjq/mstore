@@ -1,0 +1,45 @@
+.submit-btn{
+  position: relative;
+
+  min-width: 100px;
+
+  font-family: $roboto;
+  font-size: 11px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+
+  background-color: #57c2c3;
+  border: none;
+
+  transition: background-color 0.2s;
+
+  &::after{
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: 16px;
+
+    width: 0;
+    height: 0;
+
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+
+    border-left: 4px solid #fff;
+  }
+
+  &:hover{
+    cursor: pointer;
+
+    color: #57c2c3;
+    background-color: #fff;
+
+    &::after{
+      border-left-color: #57c2c3;
+    }
+  }
+}

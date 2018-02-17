@@ -1384,3 +1384,94 @@ body {
   font-weight: 300;
   letter-spacing: 0.075em;
   color: #898989; }
+
+.submit-btn {
+  position: relative;
+  min-width: 100px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 11px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #57c2c3;
+  border: none;
+  -webkit-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s; }
+  .submit-btn::after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: 16px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff; }
+  .submit-btn:hover {
+    cursor: pointer;
+    color: #57c2c3;
+    background-color: #fff; }
+    .submit-btn:hover::after {
+      border-left-color: #57c2c3; }
+
+.contact-us {
+  width: 100%;
+  padding-top: 65px;
+  background-color: #3a4545; }
+
+.contact-us__container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.contact-us__title {
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff; }
+
+.contact-us__desc {
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #fff; }
+
+.contact-us__input {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 670px;
+  min-height: 40px;
+  padding-left: 20px;
+  margin-bottom: 9px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #000;
+  border: none; }
+
+.contact-us__btn {
+  float: right; }
