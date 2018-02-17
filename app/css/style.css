@@ -1421,7 +1421,10 @@ body {
 .contact-us {
   width: 100%;
   padding-top: 65px;
-  background-color: #3a4545; }
+  background-color: #3a4545;
+  background-image: url("../img/contact-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center; }
 
 .contact-us__container {
   -webkit-box-sizing: border-box;
@@ -1438,6 +1441,9 @@ body {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+.contact-us__info {
+  margin-bottom: 88px; }
 
 .contact-us__title {
   margin: 0;
