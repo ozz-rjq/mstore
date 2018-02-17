@@ -1,0 +1,82 @@
+.social{
+  @include list-reset;
+}
+
+.social__item{
+  display: inline-block;
+  vertical-align: top;
+
+  margin-right: 30px;
+}
+
+.social__link{
+  display: block;
+
+  background-image: url("../img/sprite.png");
+
+  &--fb{
+    width: 10px;
+    height: 18px;
+
+    background-position: 0 -473px;
+
+    &:hover{
+      background-position: 0 -511px;
+    }
+  }
+
+  &--tw{
+    width: 17px;
+    height: 13px;
+
+    background-position: 0 -549px;
+
+    &:hover{
+      background-position: 0 -582px;
+    }
+  }
+
+  &--insta{
+    width: 16px;
+    height: 17px;
+
+    background-position: 0 -616px;
+
+    &:hover{
+      background-position: 0 -653px;
+    }
+  }
+
+  &--youtube{
+    width: 18px;
+    height: 13px;
+
+    background-position: 0 -689px;
+
+    &:hover{
+      background-position: 0 -722px;
+    }
+  }
+
+  &--google{
+    width: 24px;
+    height: 15px;
+
+    background-position: 0 -755px;
+
+    &:hover{
+      background-position: 0 -790px;
+    }
+  }
+
+  &--be{
+    width: 21px;
+    height: 13px;
+
+    background-position: 0 -825px;
+
+    &:hover{
+      background-position: 0 -858px;
+    }
+  }
+}

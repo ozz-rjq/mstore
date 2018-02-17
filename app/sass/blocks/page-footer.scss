@@ -18,5 +18,35 @@
 
   &--first{
     width: 370px;
+    padding-left: 33px;
   }
+}
+
+.page-footer__logo{
+  display: block;
+
+
+  img{
+    display: block;
+  }
+}
+
+.page-footer__desc{
+  margin-top: 25px;
+  margin-bottom: 36px;
+
+  font-family: $roboto;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.075em;
+  color: #868686;
+}
+
+.page-footer__contacts{
+  margin-bottom: 55px;
+}
+
+.page-footer__social{
+  margin-bottom: 45px;
 }

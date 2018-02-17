@@ -707,6 +707,56 @@ body {
     .mstore-link:hover::after {
       border-left: 4px solid #1a3d3e; }
 
+.social {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.social__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px; }
+
+.social__link {
+  display: block;
+  background-image: url("../img/sprite.png"); }
+  .social__link--fb {
+    width: 10px;
+    height: 18px;
+    background-position: 0 -473px; }
+    .social__link--fb:hover {
+      background-position: 0 -511px; }
+  .social__link--tw {
+    width: 17px;
+    height: 13px;
+    background-position: 0 -549px; }
+    .social__link--tw:hover {
+      background-position: 0 -582px; }
+  .social__link--insta {
+    width: 16px;
+    height: 17px;
+    background-position: 0 -616px; }
+    .social__link--insta:hover {
+      background-position: 0 -653px; }
+  .social__link--youtube {
+    width: 18px;
+    height: 13px;
+    background-position: 0 -689px; }
+    .social__link--youtube:hover {
+      background-position: 0 -722px; }
+  .social__link--google {
+    width: 24px;
+    height: 15px;
+    background-position: 0 -755px; }
+    .social__link--google:hover {
+      background-position: 0 -790px; }
+  .social__link--be {
+    width: 21px;
+    height: 13px;
+    background-position: 0 -825px; }
+    .social__link--be:hover {
+      background-position: 0 -858px; }
+
 .promo {
   margin-bottom: 26px;
   background-color: #9edfcf; }
@@ -1501,4 +1551,46 @@ body {
 .page-footer__col {
   width: 400px; }
   .page-footer__col--first {
-    width: 370px; }
+    width: 370px;
+    padding-left: 33px; }
+
+.page-footer__logo {
+  display: block; }
+  .page-footer__logo img {
+    display: block; }
+
+.page-footer__desc {
+  margin-top: 25px;
+  margin-bottom: 36px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.075em;
+  color: #868686; }
+
+.page-footer__contacts {
+  margin-bottom: 55px; }
+
+.page-footer__social {
+  margin-bottom: 45px; }
+
+.contacts__group {
+  margin: 0; }
+
+.contacts__field {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.075em;
+  color: #868686; }
+
+.contacts__value {
+  margin-left: 6px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.075em;
+  color: #e1e1e1; }
