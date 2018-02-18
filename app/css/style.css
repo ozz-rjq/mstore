@@ -452,7 +452,8 @@ template {
 body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 300;
-  font-size: 14px; }
+  font-size: 14px;
+  background-color: rgba(236, 246, 247, 0.1); }
 
 .visually-hidden {
   position: absolute !important;
@@ -880,9 +881,9 @@ body {
   background-color: #eff2f7;
   background-repeat: no-repeat; }
   .arrival--boy {
-    background-image: url("../../img/arrival-boy.jpg"); }
+    background-image: url("../img/arrival-boy.jpg"); }
   .arrival--girl {
-    background-image: url("../../img/arrival-girl.jpg");
+    background-image: url("../img/arrival-girl.jpg");
     background-position: right; }
 
 .arrival__note {
