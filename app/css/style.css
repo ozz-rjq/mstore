@@ -1215,6 +1215,8 @@ body {
     background-image: url("../img/rating-0.png"); }
   .product__rating--3 {
     background-image: url("../img/rating-3.png"); }
+  .product__rating--5 {
+    background-image: url("../img/rating-5.png"); }
 
 .ad {
   width: 1170px;
