@@ -1,10 +1,11 @@
 .post{
   width: 370px;
-  padding-bottom: 26px;
+  padding-bottom: 24px;
   margin-bottom: 30px;
 }
 
 .post__thumbnail{
+  margin-bottom: 19px;
 
   img{
     display: block;
@@ -16,6 +17,8 @@
 }
 
 .post__title{
+  margin-bottom: 12px;
+
   font-family: $roboto;
   font-size: 16px;
   font-weight: 300;
@@ -57,7 +60,7 @@
   display: inline-block;
   vertical-align: top;
 
-  padding-left: 30px;
+  padding-left: 41px;
 
   font-family: $roboto;
   font-size: 12px;
@@ -67,7 +70,7 @@
 
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: 8px -998px;
+  background-position: 22px -998px;
 }
 
 .post__desc{

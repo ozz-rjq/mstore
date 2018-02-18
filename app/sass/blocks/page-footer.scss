@@ -52,11 +52,11 @@
 }
 
 .page-footer__contacts{
-  margin-bottom: 55px;
+  margin-bottom: 58px;
 }
 
 .page-footer__social{
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 }
 
 .page-footer__title{
@@ -82,6 +82,10 @@
   @include list-reset;
 
   width: 200px;
+
+  &--right{
+    margin-left: 30px;
+  }
 }
 
 .page-footer__link{

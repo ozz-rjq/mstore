@@ -96,12 +96,14 @@
 
 .product__title{
   margin: 0;
-  margin-top: 21px;
+  margin-top: 18px;
+  margin-bottom: 3px;
 
   font-family: $roboto;
   font-size: 14px;
   line-height: 16px;
   font-weight: 300;
+  letter-spacing: 0.05em;
   color: #555555;
 }
 
@@ -130,6 +132,7 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;
+  letter-spacing: 0.05em;
 }
 
 .product__rating{

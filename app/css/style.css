@@ -784,6 +784,7 @@ body {
   font-weight: 800;
   line-height: 42px;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: #31415c; }
 
 .promo__big-heading {
@@ -876,7 +877,7 @@ body {
   padding-top: 71px;
   padding-right: 14px;
   padding-left: 21px;
-  padding-bottom: 68px;
+  padding-bottom: 66px;
   margin-bottom: 30px;
   background-color: #eff2f7;
   background-repeat: no-repeat; }
@@ -922,7 +923,8 @@ body {
 
 .arrival__desc {
   width: 210px;
-  margin-bottom: 30px;
+  margin-top: 5px;
+  margin-bottom: 38px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 12px;
   line-height: 14px;
@@ -1040,7 +1042,7 @@ body {
   .shop__title::after {
     content: "";
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     left: 0;
     width: 50px;
     height: 1px;
@@ -1165,11 +1167,13 @@ body {
 
 .product__title {
   margin: 0;
-  margin-top: 21px;
+  margin-top: 18px;
+  margin-bottom: 3px;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 14px;
   line-height: 16px;
   font-weight: 300;
+  letter-spacing: 0.05em;
   color: #555555; }
 
 .product__link {
@@ -1199,7 +1203,8 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500; }
+  font-weight: 500;
+  letter-spacing: 0.05em; }
 
 .product__rating {
   display: inline-block;
@@ -1214,11 +1219,12 @@ body {
 .ad {
   width: 1170px;
   margin: 0 auto;
+  margin-top: 24px;
   margin-bottom: 30px;
   background-image: url("../img/ad-bg.jpg"); }
 
 .ad__info {
-  margin-left: 570px;
+  margin-left: 575px;
   padding-top: 18px;
   padding-bottom: 31px; }
 
@@ -1321,7 +1327,9 @@ body {
 
 .offer__link {
   display: inline-block;
-  text-align: center; }
+  margin-left: -14px;
+  font-size: 10px;
+  letter-spacing: 0.1em; }
 
 .special-offer {
   position: relative;
@@ -1346,8 +1354,8 @@ body {
 
 .blog__title {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 14px;
+  padding-bottom: 23px;
   margin: 0;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 24px;
@@ -1357,7 +1365,7 @@ body {
   .blog__title::after {
     content: "";
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     left: 0;
     width: 50px;
     height: 1px;
@@ -1378,16 +1386,19 @@ body {
 
 .post {
   width: 370px;
-  padding-bottom: 26px;
+  padding-bottom: 24px;
   margin-bottom: 30px; }
 
-.post__thumbnail img {
-  display: block; }
+.post__thumbnail {
+  margin-bottom: 19px; }
+  .post__thumbnail img {
+    display: block; }
 
 .post__info {
   padding-left: 8px; }
 
 .post__title {
+  margin-bottom: 12px;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -1417,7 +1428,7 @@ body {
 .post__comments {
   display: inline-block;
   vertical-align: top;
-  padding-left: 30px;
+  padding-left: 41px;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 12px;
   line-height: 16px;
@@ -1425,7 +1436,7 @@ body {
   letter-spacing: 0.05em;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
-  background-position: 8px -998px; }
+  background-position: 22px -998px; }
 
 .post__desc {
   margin-bottom: 26px;
@@ -1494,10 +1505,11 @@ body {
           justify-content: space-between; }
 
 .contact-us__info {
-  margin-bottom: 88px; }
+  margin-bottom: 82px; }
 
 .contact-us__title {
   margin: 0;
+  margin-bottom: 6px;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 24px;
   line-height: 36px;
@@ -1577,10 +1589,10 @@ body {
   color: #868686; }
 
 .page-footer__contacts {
-  margin-bottom: 55px; }
+  margin-bottom: 58px; }
 
 .page-footer__social {
-  margin-bottom: 45px; }
+  margin-bottom: 42px; }
 
 .page-footer__title {
   display: block;
@@ -1609,6 +1621,8 @@ body {
   margin: 0;
   padding: 0;
   width: 200px; }
+  .page-footer__list--right {
+    margin-left: 30px; }
 
 .page-footer__link {
   font-family: "Roboto", "Arial", sans-serif;
