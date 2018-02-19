@@ -7,8 +7,9 @@ var gulp         = require("gulp"),
     minify       = require('gulp-csso'),
     uglify       = require('gulp-uglify'),
     rename       = require('gulp-rename'),
-    imagemin     = require('gulp-imagemin'), 
+    imagemin     = require('gulp-imagemin'),
     pngquant     = require('imagemin-pngquant'),
+    webp         = require('gulp-webp'),
     server       = require("browser-sync"),
     del          = require('del'),
     run          = require('run-sequence'),
@@ -81,6 +82,12 @@ gulp.task('compressJs', function (cb) {
     cb
   );
 });
+
+gulp.task('webp', () =>
+    gulp.src('app/img/**/*')
+        .pipe(webp())
+        .pipe(gulp.dest('dist/img'))
+);
 
 gulp.task("build", function(done) {
 

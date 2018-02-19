@@ -769,7 +769,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  background-image: url("../img/girl.jpg");
+  background-image: url("../img/girl.webp");
   background-repeat: no-repeat;
   background-position: 616px 0; }
 
@@ -882,9 +882,9 @@ body {
   background-color: #eff2f7;
   background-repeat: no-repeat; }
   .arrival--boy {
-    background-image: url("../img/arrival-boy.jpg"); }
+    background-image: url("../img/arrival-boy.webp"); }
   .arrival--girl {
-    background-image: url("../img/arrival-girl.jpg");
+    background-image: url("../img/arrival-girl.webp");
     background-position: right; }
 
 .arrival__note {
