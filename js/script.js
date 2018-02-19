@@ -1,0 +1,1 @@
+!function(){var e=document.querySelector(".search-js"),s=document.querySelector("input[name=search]");e.addEventListener("click",function(e){e.preventDefault(),s.classList.contains("search-show")?s.classList.remove("search-show"):s.classList.add("search-show")})}();
