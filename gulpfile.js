@@ -91,7 +91,7 @@ gulp.task('webp', () =>
 
 gulp.task("build", function(done) {
 
-	run("clean", "style", "img", "copy", "minifyHTML", "compressJs", done);
+	run("clean", "style", "img", "copy", "minifyHTML", "compressJs", "webp", done);
 
 });
 
