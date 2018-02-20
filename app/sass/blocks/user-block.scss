@@ -46,6 +46,7 @@
   background-image: -webkit-image-set(url("../img/sprite.webp") 1x);
 
   &:hover{
+    cursor: pointer;
     background-position: 0 -36px;
   }
 
