@@ -1241,8 +1241,9 @@ body {
   margin: 0 auto;
   margin-top: 24px;
   margin-bottom: 30px;
-  background-image: url("../img/ad-bg.jpg");
-  background-image: -webkit-image-set(url("../img/ad-bg.webp") 1x); }
+  background-color: rgba(116, 141, 164, 0.62);
+  background-image: url("../img/sneakers-bg.jpg");
+  background-image: -webkit-image-set(url("../img/sneakers-bg.webp") 1x); }
 
 .ad__info {
   margin-left: 575px;
