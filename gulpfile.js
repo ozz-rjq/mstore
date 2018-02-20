@@ -9,12 +9,11 @@ var gulp         = require("gulp"),
     rename       = require('gulp-rename'),
     imagemin     = require('gulp-imagemin'),
     pngquant     = require('imagemin-pngquant'),
-    webp         = require('gulp-webp'),
     server       = require("browser-sync"),
     del          = require('del'),
     run          = require('run-sequence'),
     ghPages      = require('gulp-gh-pages');
-
+    
 gulp.task("clean", function() {
 		return del.sync("dist");
 });
@@ -83,15 +82,9 @@ gulp.task('compressJs', function (cb) {
   );
 });
 
-gulp.task('webp', () =>
-    gulp.src('app/img/**/*')
-        .pipe(webp())
-        .pipe(gulp.dest('dist/img'))
-);
-
 gulp.task("build", function(done) {
 
-	run("clean", "style", "img", "copy", "minifyHTML", "compressJs", "webp", done);
+	run("clean", "style", "img", "copy", "minifyHTML", "compressJs", done);
 
 });
 
