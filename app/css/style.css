@@ -776,7 +776,7 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   background-image: url("../img/girl.jpg");
-  background-image: -webkit-image-set(url("../img/girl.jpg") 1x);
+  background-image: -webkit-image-set(url("../img/girl.webp") 1x);
   background-repeat: no-repeat;
   background-position: 616px 0; }
 
