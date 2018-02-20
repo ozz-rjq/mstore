@@ -4,7 +4,8 @@
   margin-top: 24px;
   margin-bottom: 30px;
 
-  background-image: url("../img/ad-bg.webp");
+  background-image: url("../img/ad-bg.jpg");
+  background-image: -webkit-image-set(url("../img/ad-bg.webp") 1x);
 }
 
 .ad__info{

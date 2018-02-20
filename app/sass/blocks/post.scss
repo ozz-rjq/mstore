@@ -52,6 +52,7 @@
   color: #636363;
 
   background-image: url("../img/sprite.png");
+  background-image: -webkit-image-set(url("../img/sprite.webp") 1x);
   background-repeat: no-repeat;
   background-position: 0px -966px;
 }
@@ -69,6 +70,7 @@
   letter-spacing: 0.05em;
 
   background-image: url("../img/sprite.png");
+  background-image: -webkit-image-set(url("../img/sprite.webp") 1x);
   background-repeat: no-repeat;
   background-position: 22px -998px;
 }

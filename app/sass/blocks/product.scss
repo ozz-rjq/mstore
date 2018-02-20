@@ -50,6 +50,7 @@
   margin-right: 15px;
 
   background-image: url("../img/sprite.png");
+  background-image: -webkit-image-set(url("../img/sprite.webp") 1x);
   background-position: 0 -215px;
 
   cursor: pointer;
@@ -68,6 +69,7 @@
   margin-right: 15px;
 
   background-image: url("../img/sprite.png");
+  background-image: -webkit-image-set(url("../img/sprite.webp") 1x);
   background-position: 0 -145px;
 
   cursor: pointer;
@@ -85,6 +87,7 @@
   height: 18px;
 
   background-image: url("../img/sprite.png");
+  background-image: -webkit-image-set(url("../img/sprite.webp") 1x);
   background-position: 0 -891px;
 
   cursor: pointer;
@@ -144,13 +147,16 @@
 
   &--0{
     background-image: url("../img/rating-0.png");
+    background-image: -webkit-image-set(url("../img/rating-0.webp") 1x);
   }
 
   &--3{
     background-image: url("../img/rating-3.png");
+    background-image: -webkit-image-set(url("../img/rating-3.webp") 1x);
   }
 
   &--5{
     background-image: url("../img/rating-5.png");
+    background-image: -webkit-image-set(url("../img/rating-5.webp") 1x);
   }
 }

@@ -8,7 +8,8 @@
   margin-bottom: 30px;
 
   background-color: #fff;
-  background-image: url("../img/new-item-bg.webp");
+  background-image: url("../img/new-item-bg.jpg");
+  background-image: -webkit-image-set(url("../img/new-item-bg.webp") 1x);
   background-repeat: no-repeat;
 }
 

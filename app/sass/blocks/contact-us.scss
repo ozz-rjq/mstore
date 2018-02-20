@@ -4,6 +4,8 @@
 
   background-color: #3a4545;
   background-image: url("../img/contact-us-bg.jpg");
+  background-image: -webkit-image-set(url("../img/contact-us-bg.webp") 1x);
+
   background-repeat: no-repeat;
   background-position: top center;
 }

@@ -13,6 +13,7 @@
   display: block;
 
   background-image: url("../img/sprite.png");
+  background-image: -webkit-image-set(url("../img/sprite.webp") 1x);
 
   &--fb{
     width: 10px;
